@@ -1,0 +1,5 @@
+rm -r */*/finish
+for folder in Ch02/02_01 Ch02/02_02 Ch02/02_03 Ch02/02_04 Ch02/02_05 Ch02/02_06 Ch02/02_07 Ch02/02_08; do cp -r "$folder"/start/* "$folder"; done
+for folder in Ch03/03_01 Ch03/03_02 Ch03/03_03 Ch03/03_04 Ch03/03_05 Ch03/03_06 Ch03/03_07; do cp -r "$folder"/start/* "$folder"; done
+for folder in Ch01/01_01 Ch01/01_02 Ch01/01_03 Ch01/01_04 Ch01/01_05 Ch01/01_06 Ch01/01_07 Ch01/01_08; do cp -r "$folder"/start/* "$folder"; done
+rm -r */*/start
